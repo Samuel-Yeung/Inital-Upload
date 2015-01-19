@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Samuel Yeung - T3 Exercise</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <h1>Topic 3 - Variables and Expressions - Compound Interest</h1>
+
+        <h3>Input</h3>
+        <p>
+            Enter the starting dollar amount or principal, the annual interest rate
+            (e.g. 3.5 for 3.5%), and the number of years of compounding. Click the
+            button to see how much money will grow!
+        </p>
+        
+        <p>
+            Principal (in $):&nbsp;
+            <input type="number" id="principal" size="10"/>
+        </p>
+        
+        <p>
+            Interest Rate (percent):&nbsp;
+            <input type="number" id="rate" size="10"/>
+        </p>
+        
+        <p>
+            Number of years:&nbsp;
+            <input type="number" id="years" size="10"/>
+        </p>
+        
+        <h3>Output</h3>
+        
+        <!--Button element that calls to the main from JS file-->
+        <button id = "main">
+            Calculate Amount
+        </button>
+
+        <!--Leaves an element for output from JS file-->
+        <p id = "output"></p>
+
+        <!--Links JS file to index.html-->
+        <script src = "challenge.js"></script>
+    </body>
+</html>
